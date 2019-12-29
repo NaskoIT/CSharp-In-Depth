@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionTreesPlayground", "ExpressionTreesPlayground\ExpressionTreesPlayground.csproj", "{610B6397-DA4C-4CE8-8946-28E42D23845B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppExpressionTrees", "WebAppExpressionTrees\WebAppExpressionTrees.csproj", "{80F72A59-99A2-4257-9020-29CE6BBC244E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppExpressionTrees", "WebAppExpressionTrees\WebAppExpressionTrees.csproj", "{80F72A59-99A2-4257-9020-29CE6BBC244E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectFactoryWithExpressions", "ObjectFactoryWithExpressions\ObjectFactoryWithExpressions.csproj", "{F71AF4D9-1181-496E-BE5C-ECB5790DFC6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{80F72A59-99A2-4257-9020-29CE6BBC244E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F72A59-99A2-4257-9020-29CE6BBC244E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F72A59-99A2-4257-9020-29CE6BBC244E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71AF4D9-1181-496E-BE5C-ECB5790DFC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71AF4D9-1181-496E-BE5C-ECB5790DFC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71AF4D9-1181-496E-BE5C-ECB5790DFC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71AF4D9-1181-496E-BE5C-ECB5790DFC6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
