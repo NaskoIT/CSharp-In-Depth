@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleInjector;
+using System;
 
 namespace DependencyInjection
 {
@@ -6,10 +7,14 @@ namespace DependencyInjection
     {
         static void Main(string[] args)
         {
-            IDbContext dbContext = new DbContext(new AppSettings());
-            IDateTimeProvider dateTimeProvider = new DateTimeProvider();
-            IRandomProvider randomProvider = new RandomProvider();
-            CatService catService = new CatService(dbContext, randomProvider, dateTimeProvider);
+            var container = new Container();
+            container.Register<IAppSettings, AppSettings>();
+            container.Register<IDateTimeProvider, DateTimeProvider>();
+            container.Register<IRandomProvider, RandomProvider>();
+            container.Register<IDbContext, DbContext>();
+            container.Verify();
+
+            CatService catService = container.GetInstance<CatService>();
 
             foreach (var cat in catService.GetRandomCatsFromToday())
             {
