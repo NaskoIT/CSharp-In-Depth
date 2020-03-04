@@ -3,13 +3,12 @@ using System.Collections.Generic;
 
 namespace DependencyInjection
 {
-    public class DbContext
+    public class DbContext : IDbContext
     {
         private readonly string connectionString;
 
-        public DbContext()
+        public DbContext(IAppSettings appSettings)
         {
-            AppSettings appSettings = new AppSettings();
             connectionString = appSettings.ConnectionString;
         }
 

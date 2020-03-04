@@ -1,7 +1,7 @@
 ﻿namespace DependencyInjection
 {
-    public class AppSettings
+    public class AppSettings : IAppSettings
     {
-        public string ConnectionString { get; set; }
+        public string ConnectionString { get; } = "My connection string comes here";
     }
 }
