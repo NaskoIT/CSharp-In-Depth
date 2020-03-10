@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeHashCodeRunTIme", "Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbers", "Traps\RandomNumbers\RandomNumbers.csproj", "{7152DF98-2E3C-4DAE-AE92-BB019D46CC63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleEnumeration", "Traps\MultipleEnumeration\MultipleEnumeration.csproj", "{28EAD8EF-9DE1-46FE-840D-B83E049B2715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{7152DF98-2E3C-4DAE-AE92-BB019D46CC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7152DF98-2E3C-4DAE-AE92-BB019D46CC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7152DF98-2E3C-4DAE-AE92-BB019D46CC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EAD8EF-9DE1-46FE-840D-B83E049B2715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EAD8EF-9DE1-46FE-840D-B83E049B2715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EAD8EF-9DE1-46FE-840D-B83E049B2715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EAD8EF-9DE1-46FE-840D-B83E049B2715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{53D1518B-F6A7-494C-82E0-13595F179D09} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
 		{547E3693-3A4C-420C-BB2A-458E5D84AA2E} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
 		{7152DF98-2E3C-4DAE-AE92-BB019D46CC63} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
+		{28EAD8EF-9DE1-46FE-840D-B83E049B2715} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
