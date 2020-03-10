@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsInStaticConstruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCallInConstructor", "Traps\VirtualCallInConstructor\VirtualCallInConstructor.csproj", "{53D1518B-F6A7-494C-82E0-13595F179D09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeHashCodeRunTIme", "Traps\ChangeHashCodeRunTIme\ChangeHashCodeRunTIme.csproj", "{547E3693-3A4C-420C-BB2A-458E5D84AA2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{53D1518B-F6A7-494C-82E0-13595F179D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53D1518B-F6A7-494C-82E0-13595F179D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53D1518B-F6A7-494C-82E0-13595F179D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547E3693-3A4C-420C-BB2A-458E5D84AA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547E3693-3A4C-420C-BB2A-458E5D84AA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547E3693-3A4C-420C-BB2A-458E5D84AA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547E3693-3A4C-420C-BB2A-458E5D84AA2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{D6E57E5D-0361-4651-AF6C-A3BE91E0EE7E} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
 		{CE873336-74D1-489B-849E-68E84FF0684C} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
 		{53D1518B-F6A7-494C-82E0-13595F179D09} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
+		{547E3693-3A4C-420C-BB2A-458E5D84AA2E} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
