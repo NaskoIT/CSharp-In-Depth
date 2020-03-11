@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinableEnumValues", "Syn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionalParameters", "OptionalParameters", "{9094988D-1FD0-4457-B755-C2F076FF8E09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Client", "SyntacticSugar\OptionalParameters\OptionalParameters.Client\OptionalParameters.Client.csproj", "{45C15097-F6FF-4113-AAA3-BFFD8AF0A916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalParameters.Client", "SyntacticSugar\OptionalParameters\OptionalParameters.Client\OptionalParameters.Client.csproj", "{45C15097-F6FF-4113-AAA3-BFFD8AF0A916}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Library", "SyntacticSugar\OptionalParameters\OptionalParameters.Library\OptionalParameters.Library.csproj", "{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalParameters.Library", "SyntacticSugar\OptionalParameters\OptionalParameters.Library\OptionalParameters.Library.csproj", "{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield", "Yield\Yield.csproj", "{750D2570-F00A-45E5-B155-FC436C6DCEB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yield", "SyntacticSugar\Yield\Yield.csproj", "{9281BA2E-5527-4DA2-9494-CB81FBD3ECB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstrainingGenerics", "SyntacticSugar\ConstrainingGenerics\ConstrainingGenerics.csproj", "{87686765-413C-4055-9680-5E62A2841C8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,10 +97,14 @@ Global
 		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{750D2570-F00A-45E5-B155-FC436C6DCEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{750D2570-F00A-45E5-B155-FC436C6DCEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{750D2570-F00A-45E5-B155-FC436C6DCEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{750D2570-F00A-45E5-B155-FC436C6DCEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9281BA2E-5527-4DA2-9494-CB81FBD3ECB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9281BA2E-5527-4DA2-9494-CB81FBD3ECB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9281BA2E-5527-4DA2-9494-CB81FBD3ECB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9281BA2E-5527-4DA2-9494-CB81FBD3ECB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87686765-413C-4055-9680-5E62A2841C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87686765-413C-4055-9680-5E62A2841C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87686765-413C-4055-9680-5E62A2841C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87686765-413C-4055-9680-5E62A2841C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,7 +124,8 @@ Global
 		{9094988D-1FD0-4457-B755-C2F076FF8E09} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
 		{45C15097-F6FF-4113-AAA3-BFFD8AF0A916} = {9094988D-1FD0-4457-B755-C2F076FF8E09}
 		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9} = {9094988D-1FD0-4457-B755-C2F076FF8E09}
-		{750D2570-F00A-45E5-B155-FC436C6DCEB5} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
+		{9281BA2E-5527-4DA2-9494-CB81FBD3ECB9} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
+		{87686765-413C-4055-9680-5E62A2841C8A} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
