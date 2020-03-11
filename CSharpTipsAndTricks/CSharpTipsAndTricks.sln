@@ -25,9 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleEnumeration", "Trap
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SyntacticSugar", "SyntacticSugar", "{5BD87760-C8B9-45A8-94FD-5E8B036788B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingVsAsOperator", "SyntacticSugar\CastingVsAsOperator\CastingVsAsOperator.csproj", "{5846D447-0B4B-4E52-99D3-C248F2248E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CastingVsAsOperator", "SyntacticSugar\CastingVsAsOperator\CastingVsAsOperator.csproj", "{5846D447-0B4B-4E52-99D3-C248F2248E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinableEnumValues", "SyntacticSugar\CombinableEnumValues\CombinableEnumValues.csproj", "{00F11105-EB19-4551-8120-D780C3097FB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinableEnumValues", "SyntacticSugar\CombinableEnumValues\CombinableEnumValues.csproj", "{00F11105-EB19-4551-8120-D780C3097FB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionalParameters", "OptionalParameters", "{9094988D-1FD0-4457-B755-C2F076FF8E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Client", "SyntacticSugar\OptionalParameters\OptionalParameters.Client\OptionalParameters.Client.csproj", "{45C15097-F6FF-4113-AAA3-BFFD8AF0A916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Library", "SyntacticSugar\OptionalParameters\OptionalParameters.Library\OptionalParameters.Library.csproj", "{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +85,14 @@ Global
 		{00F11105-EB19-4551-8120-D780C3097FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00F11105-EB19-4551-8120-D780C3097FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00F11105-EB19-4551-8120-D780C3097FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C15097-F6FF-4113-AAA3-BFFD8AF0A916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C15097-F6FF-4113-AAA3-BFFD8AF0A916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C15097-F6FF-4113-AAA3-BFFD8AF0A916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C15097-F6FF-4113-AAA3-BFFD8AF0A916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +109,9 @@ Global
 		{28EAD8EF-9DE1-46FE-840D-B83E049B2715} = {D14A0CC0-72A9-42A5-B1B0-84F2143C4DBE}
 		{5846D447-0B4B-4E52-99D3-C248F2248E7C} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
 		{00F11105-EB19-4551-8120-D780C3097FB9} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
+		{9094988D-1FD0-4457-B755-C2F076FF8E09} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
+		{45C15097-F6FF-4113-AAA3-BFFD8AF0A916} = {9094988D-1FD0-4457-B755-C2F076FF8E09}
+		{54C7CAC1-5637-4B0B-8F0A-BCBB7BA9E1E9} = {9094988D-1FD0-4457-B755-C2F076FF8E09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
