@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodDeprecation", "Useful
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWatcher", "UsefulClassesAndMethods\FileSystemWatcher\FileSystemWatcher.csproj", "{2B74D60C-02BA-4252-988C-43636991AAC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineSequences", "UsefulClassesAndMethods\CombineSequences\CombineSequences.csproj", "{51C5D128-2DB1-498F-A503-252855D63398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{2B74D60C-02BA-4252-988C-43636991AAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B74D60C-02BA-4252-988C-43636991AAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B74D60C-02BA-4252-988C-43636991AAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C5D128-2DB1-498F-A503-252855D63398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C5D128-2DB1-498F-A503-252855D63398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C5D128-2DB1-498F-A503-252855D63398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C5D128-2DB1-498F-A503-252855D63398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +162,7 @@ Global
 		{305B9DB6-85F1-4AD7-90D9-83748F8C1880} = {0791935A-8D1D-474B-8258-00907F191AEC}
 		{F8FD48D5-A2F9-45C2-BFBE-89D7A7405CE4} = {0791935A-8D1D-474B-8258-00907F191AEC}
 		{2B74D60C-02BA-4252-988C-43636991AAC6} = {0791935A-8D1D-474B-8258-00907F191AEC}
+		{51C5D128-2DB1-498F-A503-252855D63398} = {0791935A-8D1D-474B-8258-00907F191AEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
