@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "UsefulClassesAndM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodDeprecation", "UsefulClassesAndMethods\MethodDeprecation\MethodDeprecation.csproj", "{F8FD48D5-A2F9-45C2-BFBE-89D7A7405CE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWatcher", "UsefulClassesAndMethods\FileSystemWatcher\FileSystemWatcher.csproj", "{2B74D60C-02BA-4252-988C-43636991AAC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{F8FD48D5-A2F9-45C2-BFBE-89D7A7405CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8FD48D5-A2F9-45C2-BFBE-89D7A7405CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8FD48D5-A2F9-45C2-BFBE-89D7A7405CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B74D60C-02BA-4252-988C-43636991AAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B74D60C-02BA-4252-988C-43636991AAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B74D60C-02BA-4252-988C-43636991AAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B74D60C-02BA-4252-988C-43636991AAC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{DE7750B1-5D99-49C6-AF45-C2597468DA8E} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
 		{305B9DB6-85F1-4AD7-90D9-83748F8C1880} = {0791935A-8D1D-474B-8258-00907F191AEC}
 		{F8FD48D5-A2F9-45C2-BFBE-89D7A7405CE4} = {0791935A-8D1D-474B-8258-00907F191AEC}
+		{2B74D60C-02BA-4252-988C-43636991AAC6} = {0791935A-8D1D-474B-8258-00907F191AEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
