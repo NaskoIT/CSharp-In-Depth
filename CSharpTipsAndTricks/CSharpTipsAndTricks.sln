@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yield", "SyntacticSugar\Yie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstrainingGenerics", "SyntacticSugar\ConstrainingGenerics\ConstrainingGenerics.csproj", "{87686765-413C-4055-9680-5E62A2841C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceAndContravariance", "SyntacticSugar\CovarianceAndContravariance\CovarianceAndContravariance.csproj", "{DE7750B1-5D99-49C6-AF45-C2597468DA8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceAndContravariance", "SyntacticSugar\CovarianceAndContravariance\CovarianceAndContravariance.csproj", "{DE7750B1-5D99-49C6-AF45-C2597468DA8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsefulClassesAndMethods", "UsefulClassesAndMethods", "{0791935A-8D1D-474B-8258-00907F191AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "UsefulClassesAndMethods\Tuples\Tuples.csproj", "{305B9DB6-85F1-4AD7-90D9-83748F8C1880}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,10 @@ Global
 		{DE7750B1-5D99-49C6-AF45-C2597468DA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE7750B1-5D99-49C6-AF45-C2597468DA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE7750B1-5D99-49C6-AF45-C2597468DA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305B9DB6-85F1-4AD7-90D9-83748F8C1880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305B9DB6-85F1-4AD7-90D9-83748F8C1880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305B9DB6-85F1-4AD7-90D9-83748F8C1880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305B9DB6-85F1-4AD7-90D9-83748F8C1880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +141,7 @@ Global
 		{9281BA2E-5527-4DA2-9494-CB81FBD3ECB9} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
 		{87686765-413C-4055-9680-5E62A2841C8A} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
 		{DE7750B1-5D99-49C6-AF45-C2597468DA8E} = {5BD87760-C8B9-45A8-94FD-5E8B036788B4}
+		{305B9DB6-85F1-4AD7-90D9-83748F8C1880} = {0791935A-8D1D-474B-8258-00907F191AEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
