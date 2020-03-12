@@ -61,6 +61,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debugging", "Debugging", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggerVariableDisplay", "Debugging\DebuggerVariableDisplay\DebuggerVariableDisplay.csproj", "{E07DD4C3-3B3A-4010-9FE9-B6B744D650F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallerInfoAttributes", "Debugging\CallerInfoAttributes\CallerInfoAttributes.csproj", "{D5E29F77-8C91-4B50-8EDC-B51488098112}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{E07DD4C3-3B3A-4010-9FE9-B6B744D650F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E07DD4C3-3B3A-4010-9FE9-B6B744D650F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E07DD4C3-3B3A-4010-9FE9-B6B744D650F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E29F77-8C91-4B50-8EDC-B51488098112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E29F77-8C91-4B50-8EDC-B51488098112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E29F77-8C91-4B50-8EDC-B51488098112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E29F77-8C91-4B50-8EDC-B51488098112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +194,7 @@ Global
 		{A121EB5E-8FB3-41FF-A60E-C2E64D05E16A} = {142818C7-E561-4D75-B072-483C478EF59E}
 		{B82AB62D-5F4D-448A-8AD7-802FC6170AD1} = {142818C7-E561-4D75-B072-483C478EF59E}
 		{E07DD4C3-3B3A-4010-9FE9-B6B744D650F6} = {E08A82C7-8C17-454D-A807-B26AEE952CB3}
+		{D5E29F77-8C91-4B50-8EDC-B51488098112} = {E08A82C7-8C17-454D-A807-B26AEE952CB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE21439D-4DBD-4A00-90DE-9EE85B8477B2}
