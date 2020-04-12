@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Gotchas", "07.Gotchas\07
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Cancellation", "09. Cancellation\08. Cancellation.csproj", "{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.TasksBehindTheScenes", "09.TasksBehindTheScenes\09.TasksBehindTheScenes.csproj", "{40894BED-D971-40B8-99AD-5AF54B25C711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40894BED-D971-40B8-99AD-5AF54B25C711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40894BED-D971-40B8-99AD-5AF54B25C711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40894BED-D971-40B8-99AD-5AF54B25C711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40894BED-D971-40B8-99AD-5AF54B25C711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
