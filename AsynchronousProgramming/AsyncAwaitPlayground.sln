@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. TaskMethods", "04. Task
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. AsyncAwait", "05. AsyncAwait\05. AsyncAwait.csproj", "{80D3528F-74DA-4CA6-91FD-BFC0BBF8376E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceDemo", "PerformanceDemo\PerformanceDemo.csproj", "{1675CADD-F17A-4347-A01E-8B1CD7CE717B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.PerformanceDemo", "PerformanceDemo\06.PerformanceDemo.csproj", "{1675CADD-F17A-4347-A01E-8B1CD7CE717B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Gotchas", "07.Gotchas\07.Gotchas.csproj", "{60F8CD48-5F48-4612-887F-34BABA078C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Cancellation", "09. Cancellation\08. Cancellation.csproj", "{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{1675CADD-F17A-4347-A01E-8B1CD7CE717B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1675CADD-F17A-4347-A01E-8B1CD7CE717B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1675CADD-F17A-4347-A01E-8B1CD7CE717B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F8CD48-5F48-4612-887F-34BABA078C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F8CD48-5F48-4612-887F-34BABA078C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F8CD48-5F48-4612-887F-34BABA078C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F8CD48-5F48-4612-887F-34BABA078C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9E4DB7-E919-42DB-A86C-DA9BFB464620}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
