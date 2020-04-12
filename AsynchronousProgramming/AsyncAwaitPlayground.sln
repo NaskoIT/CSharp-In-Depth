@@ -13,19 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. TaskMethods", "04. Task
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. AsyncAwait", "05. AsyncAwait\05. AsyncAwait.csproj", "{80D3528F-74DA-4CA6-91FD-BFC0BBF8376E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.PerformanceDemo", "PerformanceDemo\06.PerformanceDemo.csproj", "{1675CADD-F17A-4347-A01E-8B1CD7CE717B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Gotchas", "07.Gotchas\07.Gotchas.csproj", "{60F8CD48-5F48-4612-887F-34BABA078C84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.TasksBehindTheScenes", "09.TasksBehindTheScenes\09.TasksBehindTheScenes.csproj", "{40894BED-D971-40B8-99AD-5AF54B25C711}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.CustomAwait", "CustomAwait\10.CustomAwait.csproj", "{5B8B96B6-1A96-4DC3-89A6-0BF75B16BF1C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ChildTasks", "11.ChildTasks\11.ChildTasks.csproj", "{5486AE68-64B4-40A0-8E5E-442352413F16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.StateMachine", "12.StateMachine\12.StateMachine.csproj", "{4A83AFF7-2034-403E-AAE3-B679AE15132D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Cancellation", "08. Cancellation\08. Cancellation.csproj", "{61CF6471-A584-47E0-BC93-C9FD13308DC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.CustomAwait", "10.CustomAwait\10.CustomAwait.csproj", "{4D44C2AE-8CD5-4D25-B2A0-D24CABB7DD5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +51,6 @@ Global
 		{80D3528F-74DA-4CA6-91FD-BFC0BBF8376E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D3528F-74DA-4CA6-91FD-BFC0BBF8376E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D3528F-74DA-4CA6-91FD-BFC0BBF8376E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1675CADD-F17A-4347-A01E-8B1CD7CE717B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1675CADD-F17A-4347-A01E-8B1CD7CE717B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1675CADD-F17A-4347-A01E-8B1CD7CE717B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1675CADD-F17A-4347-A01E-8B1CD7CE717B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60F8CD48-5F48-4612-887F-34BABA078C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60F8CD48-5F48-4612-887F-34BABA078C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60F8CD48-5F48-4612-887F-34BABA078C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,10 +59,6 @@ Global
 		{40894BED-D971-40B8-99AD-5AF54B25C711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40894BED-D971-40B8-99AD-5AF54B25C711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40894BED-D971-40B8-99AD-5AF54B25C711}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B8B96B6-1A96-4DC3-89A6-0BF75B16BF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B8B96B6-1A96-4DC3-89A6-0BF75B16BF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B8B96B6-1A96-4DC3-89A6-0BF75B16BF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B8B96B6-1A96-4DC3-89A6-0BF75B16BF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5486AE68-64B4-40A0-8E5E-442352413F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5486AE68-64B4-40A0-8E5E-442352413F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5486AE68-64B4-40A0-8E5E-442352413F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +71,10 @@ Global
 		{61CF6471-A584-47E0-BC93-C9FD13308DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61CF6471-A584-47E0-BC93-C9FD13308DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61CF6471-A584-47E0-BC93-C9FD13308DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D44C2AE-8CD5-4D25-B2A0-D24CABB7DD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D44C2AE-8CD5-4D25-B2A0-D24CABB7DD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D44C2AE-8CD5-4D25-B2A0-D24CABB7DD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D44C2AE-8CD5-4D25-B2A0-D24CABB7DD5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
