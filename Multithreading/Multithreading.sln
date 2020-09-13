@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCondition", "RaceCondit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlock", "Deadlock\Deadlock.csproj", "{D54BDABB-5B83-49E6-8DEE-436999FA7E56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locks", "Locks\Locks.csproj", "{19057E5D-C5FE-485F-90BA-ED415DD9E832}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D54BDABB-5B83-49E6-8DEE-436999FA7E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D54BDABB-5B83-49E6-8DEE-436999FA7E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D54BDABB-5B83-49E6-8DEE-436999FA7E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19057E5D-C5FE-485F-90BA-ED415DD9E832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19057E5D-C5FE-485F-90BA-ED415DD9E832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19057E5D-C5FE-485F-90BA-ED415DD9E832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19057E5D-C5FE-485F-90BA-ED415DD9E832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
