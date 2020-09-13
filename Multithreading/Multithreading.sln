@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locks", "Locks\Locks.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{DC612448-A5B3-4012-8236-42F01FE2A7E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{0DF99931-40C3-472F-B076-887467A054A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DC612448-A5B3-4012-8236-42F01FE2A7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC612448-A5B3-4012-8236-42F01FE2A7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC612448-A5B3-4012-8236-42F01FE2A7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF99931-40C3-472F-B076-887467A054A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF99931-40C3-472F-B076-887467A054A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF99931-40C3-472F-B076-887467A054A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF99931-40C3-472F-B076-887467A054A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
