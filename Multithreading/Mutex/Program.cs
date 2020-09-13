@@ -34,5 +34,11 @@ namespace MutexDemo
                 mutex.ReleaseMutex();
             }
         }
+
+        // Mutex stands for Mutual Exclusion that offers synchronization across multiple threads. 
+        // The Mutex calss is derived from WaitHandle, you can do a WaitOne() to acquire the mutex lock and be the owner of the mutex that time. 
+        // The mutex is released by invoking the ReleaseMutex() method as in the following;
+        // Once you have successfully compiled this program, it shows when each new thread first enters into its application domain. 
+        // Once it has finished its tasks then it is released and the second thread starts and so on.
     }
 }
