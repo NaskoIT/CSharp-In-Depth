@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlock", "Deadlock\Deadlo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locks", "Locks\Locks.csproj", "{19057E5D-C5FE-485F-90BA-ED415DD9E832}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{DC612448-A5B3-4012-8236-42F01FE2A7E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{19057E5D-C5FE-485F-90BA-ED415DD9E832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19057E5D-C5FE-485F-90BA-ED415DD9E832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19057E5D-C5FE-485F-90BA-ED415DD9E832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC612448-A5B3-4012-8236-42F01FE2A7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC612448-A5B3-4012-8236-42F01FE2A7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC612448-A5B3-4012-8236-42F01FE2A7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC612448-A5B3-4012-8236-42F01FE2A7E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
