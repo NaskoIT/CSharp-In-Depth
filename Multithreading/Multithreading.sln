@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading", "Multithre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundThread", "BackgroundThread\BackgroundThread.csproj", "{BEFD8929-3EBF-43B2-87AE-B74103073010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCondition", "RaceCondition\RaceCondition.csproj", "{FC316C8F-767F-4B48-8E80-A164D46F6385}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BEFD8929-3EBF-43B2-87AE-B74103073010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEFD8929-3EBF-43B2-87AE-B74103073010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEFD8929-3EBF-43B2-87AE-B74103073010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC316C8F-767F-4B48-8E80-A164D46F6385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC316C8F-767F-4B48-8E80-A164D46F6385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC316C8F-767F-4B48-8E80-A164D46F6385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC316C8F-767F-4B48-8E80-A164D46F6385}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
