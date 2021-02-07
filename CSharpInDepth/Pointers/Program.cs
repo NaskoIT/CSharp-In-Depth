@@ -12,17 +12,7 @@ namespace Pointers
             int someVariable = 5;
             topOfStack = (long)&someVariable;
 
-            TestStruct test = new TestStruct
-            {
-                a = 123456789.123456789,
-                b = 123456789.123456789,
-                c = 123456789.123456789,
-                d = 123456789.123456789,
-                e = 123456789.123456789,
-                f = 123456789.123456789,
-                g = 123456789.123456789,
-                h = 123456789.123456789,
-            };
+            TestStruct test = new TestStruct();
 
             Console.WriteLine("Demo when we pass the parameter to the invoked function by value.");
             RecursiveFunction(test);
