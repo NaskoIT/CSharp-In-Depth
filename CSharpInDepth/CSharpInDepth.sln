@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCopy", "DeepCopy\DeepCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destructor", "Destructor\Destructor.csproj", "{A4037D2E-88C5-4B78-9557-38496DE4E804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeaks", "MemoryLeaks\MemoryLeaks.csproj", "{99C6E86D-EED0-4965-BEE8-1235EF61F894}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A4037D2E-88C5-4B78-9557-38496DE4E804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4037D2E-88C5-4B78-9557-38496DE4E804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4037D2E-88C5-4B78-9557-38496DE4E804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C6E86D-EED0-4965-BEE8-1235EF61F894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C6E86D-EED0-4965-BEE8-1235EF61F894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C6E86D-EED0-4965-BEE8-1235EF61F894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C6E86D-EED0-4965-BEE8-1235EF61F894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
