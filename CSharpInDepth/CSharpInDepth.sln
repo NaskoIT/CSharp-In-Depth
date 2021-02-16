@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pointers", "Pointers\Pointers.csproj", "{C01C6472-7547-49D0-9935-BFD5C919B80C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pointers", "Pointers\Pointers.csproj", "{C01C6472-7547-49D0-9935-BFD5C919B80C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollection", "GarbageCollection\GarbageCollection.csproj", "{1C0C666C-B8A7-4125-A923-57F199CF49F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarbageCollection", "GarbageCollection\GarbageCollection.csproj", "{1C0C666C-B8A7-4125-A923-57F199CF49F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShallowCopy", "ShallowCopy\ShallowCopy.csproj", "{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1C0C666C-B8A7-4125-A923-57F199CF49F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0C666C-B8A7-4125-A923-57F199CF49F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0C666C-B8A7-4125-A923-57F199CF49F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
