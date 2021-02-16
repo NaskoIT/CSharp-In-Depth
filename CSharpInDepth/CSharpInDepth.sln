@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GarbageCollection", "Garbag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShallowCopy", "ShallowCopy\ShallowCopy.csproj", "{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCopy", "DeepCopy\DeepCopy.csproj", "{15C5232C-297E-4DE4-A96A-CDBD8FF842D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C17E6E-8CBB-462C-8BB6-A6A96B0CDFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C5232C-297E-4DE4-A96A-CDBD8FF842D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C5232C-297E-4DE4-A96A-CDBD8FF842D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C5232C-297E-4DE4-A96A-CDBD8FF842D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C5232C-297E-4DE4-A96A-CDBD8FF842D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
